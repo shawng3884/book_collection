@@ -1,0 +1,30 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - 2025-08-29 18:36:47.667674000 Z
+    - 2025-08-29 18:36:47.667674000 Z
+
+---
+books:
+  columns:
+  - id
+  - title
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Test Book Name 1
+    - 2025-08-29 18:38:48.623721000 Z
+    - 2025-08-29 18:38:48.623721000 Z
+  - - 2
+    - Shawn BOok
+    - 2025-08-29 18:38:58.974527000 Z
+    - 2025-08-29 18:38:58.974527000 Z
