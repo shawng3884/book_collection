@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2025_09_10_034050) do
+=======
+ActiveRecord::Schema.define(version: 2025_08_29_183758) do
+>>>>>>> 90e6c2baf9330c34eecbb8bd5874b53b633815b6
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,9 +23,12 @@ ActiveRecord::Schema.define(version: 2025_09_10_034050) do
     t.string "title"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+<<<<<<< HEAD
     t.string "author"
     t.decimal "price"
     t.date "published_date"
+=======
+>>>>>>> 90e6c2baf9330c34eecbb8bd5874b53b633815b6
   end
 
 end
