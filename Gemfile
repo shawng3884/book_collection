@@ -3,9 +3,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.2'
 
+<<<<<<< HEAD
+=======
 # To save and manage db data
 gem 'yaml_db'
 # Downgrade the concurrent_ruby version due to Logger error
+>>>>>>> 90e6c2baf9330c34eecbb8bd5874b53b633815b6
 gem 'concurrent-ruby', '1.3.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
@@ -31,10 +34,18 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
+<<<<<<< HEAD
+gem 'rexml'
+=======
+>>>>>>> 90e6c2baf9330c34eecbb8bd5874b53b633815b6
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+<<<<<<< HEAD
+  gem 'rspec-rails'
+=======
+>>>>>>> 90e6c2baf9330c34eecbb8bd5874b53b633815b6
 end
 
 group :development do

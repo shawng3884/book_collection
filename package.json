@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
+  "name": "book-collection",
+=======
   "name": "test-app",
+>>>>>>> 90e6c2baf9330c34eecbb8bd5874b53b633815b6
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
